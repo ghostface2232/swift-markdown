@@ -49,7 +49,7 @@ let package = Package(
 if ProcessInfo.processInfo.environment["SWIFTCI_USE_LOCAL_DEPS"] == nil {
     // Building standalone, so fetch all dependencies remotely.
     package.dependencies += [
-        .package(url: "https://github.com/ghostface2232/swift-cmark.git", revision: "22af6a6301fe0f27987a6f1f4061348085f25857"),
+        .package(url: "https://github.com/ghostface2232/swift-cmark.git", revision: "6cb72bca67255cfde9a557b362401bdb34756a5f"),
     ]
     
     // SwiftPM command plugins are only supported by Swift version 5.6 and later.
